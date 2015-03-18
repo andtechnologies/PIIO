@@ -11,7 +11,7 @@ class PIIO_I2C(object):
   @staticmethod
   def getPiRevision():
     "Gets the version number of the Raspberry Pi board"
-        try:
+    try:
       with open('/proc/cpuinfo','r') as f:
         for line in f:
           if line.startswith('Revision'):
