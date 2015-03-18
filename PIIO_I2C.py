@@ -137,7 +137,7 @@ class PIIO_I2C(object):
 
 if __name__ == '__main__':
   try:
-    bus = MH_I2PIIO_I2CC(address=0)
+    bus = PIIO_I2C(address=0)
     print "Default I2C bus is accessible"
   except:
     print "Error accessing default I2C bus"
