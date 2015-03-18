@@ -167,7 +167,7 @@ if __name__ == '__main__':
     
 
     # Set pin 2 to input with the pullup resistor enabled
-    digital.config(2, mcp.INPUT)
+    digital.config(2, digital.INPUT)
     digital.pullup(2, 1)
 
     # Read input pin and display the results
