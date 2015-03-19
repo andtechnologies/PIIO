@@ -33,7 +33,7 @@ while True:
  
   # Print out results
   print "--------------------------------------------"
-  print("Light: %d" %(voltage))
+  print("Voltage: %d" %(voltage))
  
  
   # Wait before repeating loop
